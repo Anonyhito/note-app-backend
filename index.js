@@ -23,7 +23,7 @@ const corsOptions = {
     "http://localhost:5173",
     "http://localhost:5174",
     "http://localhost:5175",
-    "https://rag-notes.vercel.app",
+    "https://note-app-frontend-yxe5.vercel.app",
   ], // frontend domain
   credentials: true, // ✅ allow cookies to be sent
 };
@@ -102,6 +102,6 @@ const PORT = process.env.PORT || 3000;
 
 // Handle unhandled promise rejections globally
 process.on("unhandledRejection", (err) => {
-  console.error("💥 Unhandled Rejection:", err.message);
+  console.error(" Unhandled Rejection:", err.message);
   process.exit(1);
 });
